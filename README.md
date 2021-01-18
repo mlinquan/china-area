@@ -18,6 +18,8 @@ yarn add @mlinquan/china-area
 
 ## 使用方法
 
+### vue中不使用methods，优雅地使用省市区三级联动
+https://github.com/mlinquan/china-area/blob/main/components.md
 
 ### iview Cascader 级联选择
 main.js
