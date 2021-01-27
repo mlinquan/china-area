@@ -96,6 +96,10 @@ ChinaArea.prototype.init = function(code, options) {
 
   let citys = areaData[pcode] && areaData[pcode].c || []
 
+  if(zxs.indexOf(pcode) !== -1) {
+    console.log(provinces)
+  }
+
   if (citys) {
     if(options.deep === 3) {
       let real_city
